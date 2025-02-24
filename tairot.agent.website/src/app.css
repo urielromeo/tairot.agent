@@ -1,0 +1,84 @@
+@import 'tailwindcss';
+
+.roboto-mono {
+    font-family: "Roboto Mono", Consolas, "Courier New", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    /* or specific weight: 300, 400, 500, 700 etc. */
+    font-style: normal;
+}
+
+.atkinson-hyperlegible-400 {
+    font-family: "Atkinson Hyperlegible", Arial, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    /* or specific weight: 400, 700 */
+    font-style: normal;
+}
+
+
+.atkinson-hyperlegible-700 {
+    font-family: "Atkinson Hyperlegible", Arial, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    /* or specific weight: 400, 700 */
+    font-style: normal;
+}
+
+
+.atkinson-hyperlegible-800 {
+    font-family: "Atkinson Hyperlegible", Arial, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    /* or specific weight: 400, 700 */
+    font-style: normal;
+}
+
+.ghost-text {
+    font-size: 6rem;
+    font-weight: bold;
+    /* Create a gradient that mimics the light reflection on glass */
+    background: linear-gradient(135deg, rgba(0, 64, 255, 0.8), rgba(126, 17, 180, 0.911));
+    /* Clip the background to the text */
+    -webkit-background-clip: text;
+    background-clip: text;
+    /* Make the actual text transparent so only the background shows */
+    -webkit-text-fill-color: transparent;
+    /* Add subtle text shadow for depth */
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.cool-text {
+    font-weight: bold;
+    background: linear-gradient(135deg, rgba(0, 64, 255, 0.8), rgba(126, 17, 180, 0.911));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    font-family: "Atkinson Hyperlegible", Arial, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+html,
+body {
+    height: 100%;
+    scroll-behavior: smooth !important;
+}
+
+html,
+body {
+
+    /* Hide scrollbar in IE, Edge */
+    -ms-overflow-style: none;
+
+    /* Hide scrollbar in Firefox */
+    scrollbar-width: none;
+}
+
+/* Hide scrollbar in Chrome, Safari, and Opera */
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+    display: none;
+}

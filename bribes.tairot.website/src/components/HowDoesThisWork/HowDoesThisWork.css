@@ -1,0 +1,23 @@
+.pop3d {
+    padding: 1rem;
+    cursor: pointer;
+    transition: transform 0.2s ease-out;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    text-align: center;
+    transition: all 0.2s ease;
+    color: rgba(24, 52, 134, 0.8);
+}
+
+.hdtw-div {
+    padding: 1em;
+    width: 50%;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 1em;
+    cursor: pointer;
+}
+
+.hdtw-div:hover {
+    background: linear-gradient(135deg, rgba(0, 64, 255, 0.2), rgba(126, 17, 180, 0.11));
+}
