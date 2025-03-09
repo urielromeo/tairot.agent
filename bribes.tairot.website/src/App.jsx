@@ -66,9 +66,9 @@ const App = () => {
       <QueryClientProvider client={queryClient}>
         <RainbowKitProvider>
           <div className="page ml-5 flex flex-col align-middle justify-center" style={{ alignItems: "center" }} id="learn-more">
-            <h1 className="ghost-text atkinson-hyperlegible-700 pop3d mb-5 text-center">
+            <span className="ghost-text atkinson-hyperlegible-700 pop3d mt-4 md:mt-0 mb-0 md:mb-5 text-center md:text-6xl text-4xl">
               💲tairot.bribes💲
-            </h1>
+            </span>
             <Pop3D action='back-to-tairot-agent'>Go back to tarot.agent page</Pop3D>
             <Pop3D action='open-contract'>Bribes Contract Address</Pop3D>
             <HowDoesThisWork action={openExplainerModal}>How does this work?</HowDoesThisWork>
