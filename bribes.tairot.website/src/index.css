@@ -1,4 +1,10 @@
+html,
+body {
+  background-color: white;
+}
+
 :root {
+  background-color: white;
   color-scheme: light only;
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
