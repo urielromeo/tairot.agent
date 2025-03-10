@@ -1,0 +1,25 @@
+{
+  "name": "sonic-lord-backend",
+  "version": "1.0.0",
+  "description": "Git repo for Sonic Lord Backend",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/urielromeo/sonic-lord-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/urielromeo/sonic-lord-backend/issues"
+  },
+  "homepage": "https://github.com/urielromeo/sonic-lord-backend#readme",
+  "dependencies": {
+    "express": "^4.21.2",
+    "form-data": "^4.0.2",
+    "node-fetch": "^2.7.0",
+    "redis": "^4.7.0"
+  }
+}
